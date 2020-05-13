@@ -1,1 +1,9 @@
 /*---- Mixins ---- */
+
+@mixin mobile ($width: 375px) {
+    max-width: $width;
+}
+
+@mixin desktop ($width: 1440px) {
+    max-width: $width;
+}
