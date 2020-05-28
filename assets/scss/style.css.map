@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,wBAAwB;AAExB,aAAa;AAFb,wBAAwB;AAExB,aAAa;ACFb,qBAAqB;ACArB,kBAAkB;ACAlB,mBAAmB;ACAnB,oBAAoB;ACApB,mBAAmB;ACAnB,mBAAmB;ACAnB,uBAAuB;ACAvB,qBAAqB;ACArB,sBAAsB;ACAtB,qBAAqB;ACArB,qBAAqB",
-"sources": ["lib/variables.scss","components/_button.scss","components/_div.scss","components/_form.scss","components/_image.scss","components/_list.scss","components/_menu.scss","components/_section.scss","components/_title.scss","components/_pgraphs.scss","layout/_header.scss","layout/_footer.scss"],
-"names": [],
-"file": "style.css"
-}

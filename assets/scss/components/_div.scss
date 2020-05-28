@@ -1,1 +1,15 @@
 /*---- Div ---- */
+
+
+/* ---- hero ---- */
+
+.hero__wrapper {
+    padding: 0 1.5em;
+}
+
+.hero__wrapper--banner {
+    margin: 0 -27px;
+    height: 300px;
+    background: url(/assets/images/image-mockups.png) center  bottom no-repeat, url(/assets/images/bg-intro-mobile.svg) center no-repeat;
+    background-size: 345px, cover;
+}

@@ -1,1 +1,11 @@
 /*---- Button ---- */
+
+.button {
+    padding: 1em 2.5em;
+    background-image: linear-gradient(to right, $limegreen 0%, $cyan 100%);
+    border-radius: 50px;
+    color: $white;
+    font-weight: $weightmenor;
+    border: none;
+    font-size: $fontsize - 4px;
+}
