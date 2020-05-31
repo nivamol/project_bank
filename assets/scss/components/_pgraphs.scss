@@ -1,8 +1,16 @@
 /*---- Pgraphs ---- */
-
-.copy {
+%copy_general {
     line-height: 1.6em;
     font-size: $fontsize - 4px;
     font-weight: $weightmenor;
     margin-bottom: 2.3em;
+}
+
+.copy {
+    @extend %copy_general;
+}
+
+.copy__items {
+    @extend %copy_general;
+    padding: 0 26px;
 }
