@@ -1,11 +1,19 @@
 /*---- Sections ---- */
+%centrado {
+    text-align: center;
+}
 
 .hero {
-    text-align: center;
+    @extend %centrado;
 }
 
 .why {
     height: 1300px;
-    background-color: $verylightgray;
+    background-color: $lightgrayishblue;
     text-align: center;
+}
+
+.articles {
+    @extend %centrado;
+    background-color: $verylightgray;
 }

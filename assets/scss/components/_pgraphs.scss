@@ -14,3 +14,19 @@
     @extend %copy_general;
     padding: 0 26px;
 }
+
+.container__article--pgraphBy {
+    text-align: left;
+    font-size: 9px;
+    color: $grayishblue;
+    opacity: .8;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+.container__article--pgraphDescripcion {
+    font-size: $fontsize - 5px;
+    font-weight: $weightmenor;
+    text-align: left;
+    opacity: .8;
+}

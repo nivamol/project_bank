@@ -21,15 +21,19 @@ header {
 }
 
 /*---- Footer ---- */
-/*---- Button ---- */
-.button {
-  padding: 1em 2.5em;
-  background-image: linear-gradient(to right, #31d35c 0%, #2bb7da 100%);
-  border-radius: 50px;
-  color: white;
-  font-weight: 300;
-  border: none;
-  font-size: 14px;
+/*---- Sections ---- */
+.articles, .hero {
+  text-align: center;
+}
+
+.why {
+  height: 1300px;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+.articles {
+  background-color: #fafafa;
 }
 
 /*---- Div ---- */
@@ -50,14 +54,19 @@ header {
   margin-bottom: 60px;
 }
 
-/*---- Form ---- */
-/*---- Image ---- */
-/* ---- logo * ----*/
-.header__img--logo {
-  height: 20px;
+/* --- articles --- */
+.articles__container {
+  display: flex;
+  flex-direction: column;
 }
 
-/*---- List ---- */
+.container__article {
+  width: 320px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
 /*---- nav ---- */
 nav {
   width: 40px;
@@ -67,22 +76,15 @@ nav {
   background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
-/*---- Sections ---- */
-.hero {
-  text-align: center;
-}
-
-.why {
-  height: 1300px;
-  background-color: #fafafa;
-  text-align: center;
-}
-
+/*---- List ---- */
 /*---- Titles ---- */
+.container__article--title, .items__all--titulo, .why__description--titulo, .title__h1 {
+  color: #2d314d;
+}
+
 .title__h1 {
   font-size: 2.1em;
   font-weight: 300;
-  color: #2d314d;
   line-height: 1.3;
   margin-bottom: 0.5em;
 }
@@ -91,12 +93,22 @@ nav {
   font-size: 2em;
   padding-top: 70px;
   font-weight: 300;
-  color: #2d314d;
 }
 
 .items__all--titulo {
   font-weight: 300;
-  color: #2d314d;
+}
+
+.why__description--titulo {
+  margin-top: 0;
+}
+
+.container__article--title {
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.9;
+  text-align: left;
+  margin: 0 32px;
 }
 
 /*---- Pgraphs ---- */
@@ -109,4 +121,44 @@ nav {
 
 .copy__items {
   padding: 0 26px;
+}
+
+.container__article--pgraphBy {
+  text-align: left;
+  font-size: 9px;
+  color: #9698a6;
+  opacity: 0.8;
+  margin-top: 24px;
+  margin-left: 32px;
+}
+
+.container__article--pgraphDescripcion {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  opacity: 0.8;
+}
+
+/*---- Button ---- */
+.button {
+  padding: 1em 2.5em;
+  background-image: linear-gradient(to right, #31d35c 0%, #2bb7da 100%);
+  border-radius: 50px;
+  color: white;
+  font-weight: 300;
+  border: none;
+  font-size: 14px;
+}
+
+/*---- Form ---- */
+/*---- Image ---- */
+/* ---- logo * ----*/
+.header__img--logo {
+  height: 20px;
+}
+
+.container__article--image {
+  width: inherit;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
 }
