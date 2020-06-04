@@ -34,6 +34,7 @@ header {
 
 .articles {
   background-color: #fafafa;
+  height: 1900px;
 }
 
 /*---- Div ---- */
@@ -62,6 +63,7 @@ header {
 
 .container__article {
   width: 320px;
+  height: 400px;
   background-color: white;
   border-radius: 5px;
   margin-bottom: 24px;
@@ -133,10 +135,12 @@ nav {
 }
 
 .container__article--pgraphDescripcion {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   text-align: left;
   opacity: 0.8;
+  padding: 0 30px;
+  line-height: 18px;
 }
 
 /*---- Button ---- */
