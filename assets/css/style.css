@@ -59,6 +59,7 @@ header {
 .articles__container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .container__article {
