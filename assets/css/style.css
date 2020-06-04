@@ -92,17 +92,14 @@ nav {
 }
 
 .why__description--titulo {
-  font-size: 2em;
+  font-size: 1.8em;
   padding-top: 70px;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .items__all--titulo {
   font-weight: 300;
-}
-
-.why__description--titulo {
-  margin-top: 0;
 }
 
 .container__article--title {

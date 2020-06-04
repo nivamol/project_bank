@@ -14,10 +14,11 @@
 
 
 .why__description--titulo {
-    font-size: 2em;
+    font-size: 1.8em;
     padding-top: 70px;
     font-weight: $weightmenor;
     @extend %color;
+    margin-top: 0;
 }
 
 .items__all--titulo {
@@ -25,9 +26,6 @@
     @extend %color;
 }
 
-.why__description--titulo {
-    margin-top: 0;
-}
 
 .container__article--title {
     font-weight: $weightmenor;
