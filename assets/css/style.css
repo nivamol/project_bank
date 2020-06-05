@@ -21,6 +21,17 @@ header {
 }
 
 /*---- Footer ---- */
+footer {
+  height: 510px;
+  background-color: #2d314d;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
 /*---- Sections ---- */
 .articles, .hero {
   text-align: center;
@@ -71,6 +82,25 @@ header {
   margin-bottom: 24px;
 }
 
+.wrapperFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 92px;
+  margin: 0 auto;
+}
+
+.RS__container {
+  display: flex;
+  justify-content: space-between;
+  width: 184px;
+  margin: 0 auto;
+}
+
+div.logo__container svg {
+  margin-top: 20px;
+}
+
 /*---- nav ---- */
 nav {
   width: 40px;
@@ -80,6 +110,25 @@ nav {
   background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
+.linksF {
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.linksF:nth-of-type(6) {
+  margin-bottom: 0;
+}
+
+/* --- Media querie desktop
+
+.linksF:hover {
+  color: $grayishblue;
+}
+
+*/
 /*---- List ---- */
 /*---- Titles ---- */
 .container__article--title, .items__all--titulo, .why__description--titulo, .title__h1 {
@@ -142,6 +191,13 @@ nav {
   line-height: 18px;
 }
 
+.rights__EB {
+  color: #9698a6;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 0;
+}
+
 /*---- Button ---- */
 .button {
   padding: 1em 2.5em;
@@ -164,4 +220,9 @@ nav {
   width: inherit;
   height: 200px;
   border-radius: 5px 5px 0 0;
+}
+
+.RS__container--icons {
+  width: 23px;
+  height: 23px;
 }
