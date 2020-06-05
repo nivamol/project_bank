@@ -40,3 +40,22 @@
     border-radius: 5px;
     margin-bottom: 24px;
 }
+
+.wrapperFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 92px;
+    margin: 0 auto;
+}
+
+.RS__container {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    margin: 0 auto;
+}
+
+div.logo__container svg {
+    margin-top: 20px;
+}

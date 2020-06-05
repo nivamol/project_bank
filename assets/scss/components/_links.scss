@@ -1,0 +1,19 @@
+.linksF {
+  margin-bottom: 16px; 
+  text-decoration: none;
+  color: $white;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.linksF:nth-of-type(6) {
+  margin-bottom: 0;
+}
+
+/* --- Media querie desktop
+
+.linksF:hover {
+  color: $grayishblue;
+}
+
+*/

@@ -1,1 +1,12 @@
 /*---- Footer ---- */
+
+footer {
+  height: 510px;
+  background-color: $darkblue;
+  color: $white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: $fontsize - 2px;
+}
