@@ -26,10 +26,6 @@
     @extend %color;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> footer
 .container__article--title {
     font-weight: $weightmenor;
     @extend %color;
@@ -37,4 +33,10 @@
     opacity: .9;
     text-align: left;
     margin: 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .title__h1 {
+        font-size: 1.6em;
+    }
 }

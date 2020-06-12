@@ -10,7 +10,6 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
   color: #9698a6;
-  max-width: 375px;
 }
 
 /*---- Header ---- */
@@ -101,6 +100,38 @@ div.logo__container svg {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero__wrapper {
+    padding: 0;
+    margin-bottom: -100px;
+  }
+
+  .hero__content {
+    display: flex;
+    width: 110%;
+  }
+
+  .hero__wrapper--banner {
+    height: 460px;
+    width: 70%;
+    order: 2;
+    background: url(/assets/images/image-mockups.png), url(/assets/images/bg-intro-desktop.svg);
+    background-position: 77px -68px, -25px -150px;
+    background-size: 400px 500px, 680px 555px;
+    background-repeat: no-repeat;
+  }
+
+  .hero__description {
+    width: 50%;
+    text-align: left;
+    padding: 4em 3em 0 4em;
+    box-sizing: border-box;
+  }
+}
 /*---- nav ---- */
 nav {
   width: 40px;
@@ -110,6 +141,11 @@ nav {
   background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
+@media screen and (min-width: 768px) {
+  nav {
+    background: none;
+  }
+}
 .linksF {
   margin-bottom: 16px;
   text-decoration: none;
@@ -161,6 +197,11 @@ nav {
   margin: 0 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .title__h1 {
+    font-size: 1.6em;
+  }
+}
 /*---- Pgraphs ---- */
 .copy__items, .copy {
   line-height: 1.6em;
@@ -198,6 +239,11 @@ nav {
   margin-top: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .copy {
+    font-size: 10px;
+  }
+}
 /*---- Button ---- */
 .button {
   padding: 1em 2.5em;
@@ -209,6 +255,12 @@ nav {
   font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 0.8em 2em;
+    font-size: 11.5px;
+  }
+}
 /*---- Form ---- */
 /*---- Image ---- */
 /* ---- logo * ----*/

@@ -9,3 +9,10 @@
     border: none;
     font-size: $fontsize - 4px;
 }
+
+@media screen and (min-width: 768px) {
+    .button {
+        padding: .8em 2em;
+        font-size: 11.5px;
+    }
+}

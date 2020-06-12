@@ -59,3 +59,37 @@
 div.logo__container svg {
     margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero__wrapper {
+        padding: 0;
+        margin-bottom: -100px;
+    }
+    .hero__content {
+        display: flex;
+        width: 110%;
+    }
+
+    .hero__wrapper--banner {
+        height: 460px;
+        width: 70%; 
+        order: 2;
+        background: url(/assets/images/image-mockups.png), url(/assets/images/bg-intro-desktop.svg);
+        background-position: 77px -68px ,-25px -150px;
+        background-size: 400px 500px, 680px 555px;
+        background-repeat: no-repeat;
+    }
+
+    .hero__description {
+        width: 50%;
+        text-align: left;
+        padding: 4em 3em 0 4em;
+        box-sizing: border-box;
+    }
+
+}
