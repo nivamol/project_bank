@@ -19,3 +19,9 @@
     height: 1900px;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+    .why {
+        height: 430px;
+    }
+}

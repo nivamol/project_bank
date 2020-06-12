@@ -92,4 +92,33 @@ div.logo__container svg {
         box-sizing: border-box;
     }
 
+    .why__description {
+        text-align: left;
+        margin-bottom: 50px;
+        padding-left: 4em; 
+    }
+
+    .why__description .copy {
+        width: 360px;
+    }
+    
+    .why__items {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 4em;
+    }
+
+    .items__all {
+        text-align: left;
+        width: 250px;
+        padding-right: 15px;
+    }
+
+    .items__all:nth-of-type(4) {
+        padding-right: 0;
+    }
+
+    .articles__container {
+        flex-direction: row;
+    }
 }

@@ -48,6 +48,11 @@ footer {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .why {
+    height: 430px;
+  }
+}
 /*---- Div ---- */
 /* ---- hero ---- */
 .hero__wrapper {
@@ -131,6 +136,36 @@ div.logo__container svg {
     padding: 4em 3em 0 4em;
     box-sizing: border-box;
   }
+
+  .why__description {
+    text-align: left;
+    margin-bottom: 50px;
+    padding-left: 4em;
+  }
+
+  .why__description .copy {
+    width: 360px;
+  }
+
+  .why__items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4em;
+  }
+
+  .items__all {
+    text-align: left;
+    width: 250px;
+    padding-right: 15px;
+  }
+
+  .items__all:nth-of-type(4) {
+    padding-right: 0;
+  }
+
+  .articles__container {
+    flex-direction: row;
+  }
 }
 /*---- nav ---- */
 nav {
@@ -198,8 +233,12 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  .title__h1 {
+  .why__description--titulo, .title__h1 {
     font-size: 1.6em;
+  }
+
+  .items__all--titulo {
+    font-size: 14px;
   }
 }
 /*---- Pgraphs ---- */
@@ -243,6 +282,12 @@ nav {
   .copy {
     font-size: 10px;
   }
+
+  .copy__items {
+    padding: 0;
+    font-size: 9px;
+    height: 90px;
+  }
 }
 /*---- Button ---- */
 .button {
@@ -277,4 +322,11 @@ nav {
 .RS__container--icons {
   width: 23px;
   height: 23px;
+}
+
+@media screen and (min-width: 768px) {
+  .items__all--image {
+    width: 40px;
+    height: 40px;
+  }
 }
