@@ -52,6 +52,11 @@ footer {
   .why {
     height: 430px;
   }
+
+  .articles {
+    padding: 0 4em;
+    height: 450px;
+  }
 }
 /*---- Div ---- */
 /* ---- hero ---- */
@@ -166,6 +171,15 @@ div.logo__container svg {
   .articles__container {
     flex-direction: row;
   }
+
+  .container__article {
+    width: 100%;
+    height: 280px;
+  }
+
+  .container__article {
+    margin-right: 15px;
+  }
 }
 /*---- nav ---- */
 nav {
@@ -176,11 +190,6 @@ nav {
   background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
-@media screen and (min-width: 768px) {
-  nav {
-    background: none;
-  }
-}
 .linksF {
   margin-bottom: 16px;
   text-decoration: none;
@@ -240,6 +249,21 @@ nav {
   .items__all--titulo {
     font-size: 14px;
   }
+
+  .why__description--titulo {
+    text-align: left;
+    margin-bottom: 35px;
+    padding-top: 48px;
+  }
+
+  .container__article--title {
+    margin-left: 15px;
+    font-size: 9px;
+  }
+
+  .container__article:nth-of-type(4) {
+    margin-right: 0;
+  }
 }
 /*---- Pgraphs ---- */
 .copy__items, .copy {
@@ -288,6 +312,17 @@ nav {
     font-size: 9px;
     height: 90px;
   }
+
+  .container__article--pgraphBy {
+    font-size: 7px;
+    margin-left: 15px;
+  }
+
+  .container__article--pgraphDescripcion {
+    padding-left: 15px;
+    font-size: 8px;
+    line-height: 11px;
+  }
 }
 /*---- Button ---- */
 .button {
@@ -328,5 +363,9 @@ nav {
   .items__all--image {
     width: 40px;
     height: 40px;
+  }
+
+  .container__article--image {
+    height: 120px;
   }
 }
