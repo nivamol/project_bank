@@ -86,6 +86,10 @@ footer {
     margin-top: -180px;
     height: 650px;
   }
+
+  .articles {
+    height: 640px;
+  }
 }
 /*---- Div ---- */
 /* ---- hero ---- */
@@ -266,6 +270,14 @@ footer {
     height: 265px;
     margin-top: 20px;
   }
+
+  .articles__container {
+    padding: 0 78px;
+  }
+
+  .container__article {
+    height: 395px;
+  }
 }
 /*---- nav ---- */
 nav {
@@ -408,6 +420,14 @@ nav {
     font-size: 21px;
     margin-top: 32px;
   }
+
+  .container__article--title {
+    font-size: 16px;
+  }
+
+  .articlesContainer__h3Div4 {
+    width: 163px;
+  }
 }
 /*---- Pgraphs ---- */
 .copy__items, .copy {
@@ -487,6 +507,16 @@ nav {
   .copy__items {
     font-size: 15px;
   }
+
+  .container__article--pgraphBy {
+    font-size: 9px;
+  }
+
+  .container__article--pgraphDescripcion {
+    line-height: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 /*---- Button ---- */
 .button {
@@ -554,5 +584,9 @@ nav {
   .items__all--image {
     width: 80px;
     height: 80px;
+  }
+
+  .container__article--image {
+    height: 200px;
   }
 }
