@@ -19,6 +19,11 @@ header {
   justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+  header {
+    background-color: #f3f4f6;
+  }
+}
 /*---- Footer ---- */
 footer {
   height: 510px;
@@ -31,6 +36,14 @@ footer {
   font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    align-items: center;
+    height: 190px;
+    padding: 0 4em;
+  }
+}
 /*---- Sections ---- */
 .articles, .hero {
   text-align: center;
@@ -95,8 +108,13 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 92px;
   margin: 0 auto;
+  height: 180px;
+  width: 100px;
+}
+
+.container_uno, .container_dos {
+  height: 50%;
 }
 
 .RS__container {
@@ -106,8 +124,9 @@ footer {
   margin: 0 auto;
 }
 
-div.logo__container svg {
+.logo__container svg {
   margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -180,6 +199,34 @@ div.logo__container svg {
   .container__article {
     margin-right: 15px;
   }
+
+  .logo__container svg {
+    font-size: 10px;
+  }
+
+  .RS__container {
+    justify-content: space-around;
+    width: 140px;
+  }
+
+  .wrapperFooter {
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    text-align: left;
+    padding-top: 35px;
+    height: 155px;
+  }
+
+  .container_uno {
+    margin-right: 80px;
+  }
+
+  .footer__rights {
+    height: 50px;
+    margin: auto 0;
+    text-align: right;
+  }
 }
 /*---- nav ---- */
 nav {
@@ -196,12 +243,18 @@ nav {
   color: white;
   font-size: 14px;
   transition: 0.3s;
+  display: block;
 }
 
 .linksF:nth-of-type(6) {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .linksF {
+    font-size: 11px;
+  }
+}
 /* --- Media querie desktop
 
 .linksF:hover {
@@ -323,6 +376,10 @@ nav {
     font-size: 8px;
     line-height: 11px;
   }
+
+  .rights__EB {
+    height: 30px;
+  }
 }
 /*---- Button ---- */
 .button {
@@ -333,6 +390,7 @@ nav {
   font-weight: 300;
   border: none;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -367,5 +425,10 @@ nav {
 
   .container__article--image {
     height: 120px;
+  }
+
+  .RS__container--icons {
+    width: 15px;
+    height: 15px;
   }
 }

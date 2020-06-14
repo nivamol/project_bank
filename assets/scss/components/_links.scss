@@ -4,10 +4,17 @@
   color: $white;
   font-size: 14px;
   transition: .3s;
+  display: block;
 }
 
 .linksF:nth-of-type(6) {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .linksF {
+    font-size: 11px;
+  }
 }
 
 /* --- Media querie desktop
