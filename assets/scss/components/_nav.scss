@@ -8,8 +8,9 @@ nav {
     background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     nav {
-        
+        background: none;
+        width: 330px;
     }
 }

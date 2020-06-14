@@ -17,6 +17,18 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .nav__links {
+    text-decoration: none;
+    color: $grayishblue;
+    transition: .3s ease-in-out;
+  }
+
+  .nav__links:hover {
+    color: $limegreen;
+  }
+}
+
 /* --- Media querie desktop
 
 .linksF:hover {

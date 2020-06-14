@@ -1,1 +1,25 @@
 /*---- List ---- */
+ 
+.no-active {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .no-active {
+    display: block;
+  }
+
+  .menu__list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    list-style: none;
+  }
+
+  .list__item {
+    
+  }
+
+
+}

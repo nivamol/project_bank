@@ -24,6 +24,12 @@ header {
     background-color: #f3f4f6;
   }
 }
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 /*---- Footer ---- */
 footer {
   height: 510px;
@@ -237,6 +243,12 @@ nav {
   background: url(/assets/images/icon-hamburger.svg) center no-repeat;
 }
 
+@media screen and (min-width: 1024px) {
+  nav {
+    background: none;
+    width: 330px;
+  }
+}
 .linksF {
   margin-bottom: 16px;
   text-decoration: none;
@@ -255,6 +267,17 @@ nav {
     font-size: 11px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .nav__links {
+    text-decoration: none;
+    color: #9698a6;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav__links:hover {
+    color: #31d35c;
+  }
+}
 /* --- Media querie desktop
 
 .linksF:hover {
@@ -263,6 +286,23 @@ nav {
 
 */
 /*---- List ---- */
+.no-active {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .no-active {
+    display: block;
+  }
+
+  .menu__list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    list-style: none;
+  }
+}
 /*---- Titles ---- */
 .container__article--title, .items__all--titulo, .why__description--titulo, .title__h1 {
   color: #2d314d;
@@ -397,6 +437,11 @@ nav {
   .button {
     padding: 0.8em 2em;
     font-size: 11.5px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__button {
+    margin-bottom: 0;
   }
 }
 /*---- Form ---- */
