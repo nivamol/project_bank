@@ -1,4 +1,4 @@
-/*---- Button ---- */
+ /*---- Button ---- */
 
 .button {
     padding: 1em 2.5em;
@@ -21,5 +21,11 @@
 @media screen and (min-width: 1024px) {
     .nav__button {
         margin-bottom: 0;
+    }
+
+    .button {
+        margin-left: 150px;
+        font-size: 14px; 
+        padding: 1em 2.5em;
     }
 }

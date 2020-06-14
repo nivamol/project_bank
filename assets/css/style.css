@@ -77,6 +77,16 @@ footer {
     height: 450px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .hero {
+    height: 780px;
+  }
+
+  .why {
+    margin-top: -180px;
+    height: 650px;
+  }
+}
 /*---- Div ---- */
 /* ---- hero ---- */
 .hero__wrapper {
@@ -234,6 +244,29 @@ footer {
     text-align: right;
   }
 }
+@media screen and (min-width: 1024px) {
+  .hero__wrapper--banner {
+    background-position: 190px -110px, -2px -210px;
+    background-size: 700px 850px, 1200px 850px;
+    height: 750px;
+    /*background-size: 400px 500px, 680px 555px;*/
+  }
+
+  .hero__description {
+    padding: 0;
+    margin: 130px 0;
+    font-size: 18px;
+  }
+
+  .why__items {
+    padding: 0px 140px;
+  }
+
+  .items__all {
+    height: 265px;
+    margin-top: 20px;
+  }
+}
 /*---- nav ---- */
 nav {
   width: 40px;
@@ -358,6 +391,24 @@ nav {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 1024px) {
+  .title__h1 {
+    font-size: 2.8em;
+    width: 395px;
+    margin: 0 auto;
+  }
+
+  .why__description--titulo {
+    padding-top: 90px;
+    font-size: 2em;
+    padding-left: 75px;
+  }
+
+  .items__all--titulo {
+    font-size: 21px;
+    margin-top: 32px;
+  }
+}
 /*---- Pgraphs ---- */
 .copy__items, .copy {
   line-height: 1.6em;
@@ -421,6 +472,22 @@ nav {
     height: 30px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .copy {
+    margin: 20px 0 30px 150px;
+    font-size: 17px;
+  }
+
+  .parrafo__why {
+    margin: 0;
+    padding-left: 78px;
+    width: 610px !important;
+  }
+
+  .copy__items {
+    font-size: 15px;
+  }
+}
 /*---- Button ---- */
 .button {
   padding: 1em 2.5em;
@@ -442,6 +509,12 @@ nav {
 @media screen and (min-width: 1024px) {
   .nav__button {
     margin-bottom: 0;
+  }
+
+  .button {
+    margin-left: 150px;
+    font-size: 14px;
+    padding: 1em 2.5em;
   }
 }
 /*---- Form ---- */
@@ -475,5 +548,11 @@ nav {
   .RS__container--icons {
     width: 15px;
     height: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .items__all--image {
+    width: 80px;
+    height: 80px;
   }
 }

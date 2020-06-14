@@ -34,3 +34,10 @@
         height: 15px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .items__all--image {
+        width: 80px;
+        height: 80px;
+    }
+}

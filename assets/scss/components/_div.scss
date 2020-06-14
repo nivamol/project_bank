@@ -164,3 +164,28 @@
         text-align: right;
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+    .hero__wrapper--banner {
+        background-position: 190px -110px ,-2px -210px;
+        background-size: 700px 850px, 1200px 850px;
+        height: 750px;
+        /*background-size: 400px 500px, 680px 555px;*/
+    }
+
+    .hero__description {
+        padding: 0;
+        margin: 130px 0;
+        font-size: 18px;
+    }
+
+    .why__items {
+        padding: 0px 140px;
+    }
+
+    .items__all {
+        height: 265px;
+        margin-top: 20px;
+    }
+}

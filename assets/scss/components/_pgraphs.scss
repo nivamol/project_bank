@@ -66,3 +66,20 @@
         height: 30px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .copy {
+        margin: 20px 0 30px 150px;
+        font-size: 17px;
+    }
+
+    .parrafo__why {
+        margin: 0;
+        padding-left: 78px;
+        width: 610px!important;
+    }
+
+    .copy__items {
+        font-size: 15px;
+    }
+}

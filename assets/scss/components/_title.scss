@@ -68,3 +68,22 @@
         margin-right: 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .title__h1 {
+        font-size: 2.8em;
+        width: 395px;
+        margin: 0 auto;
+    }
+
+    .why__description--titulo {
+        padding-top: 90px;
+        font-size: 2em;
+        padding-left: 75px;
+    }
+
+    .items__all--titulo {
+        font-size: 21px;
+        margin-top: 32px;
+    }
+}

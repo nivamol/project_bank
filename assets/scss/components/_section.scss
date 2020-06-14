@@ -30,3 +30,14 @@
         height: 450px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        height: 780px;
+    }
+
+    .why {
+        margin-top: -180px;
+        height: 650px;
+    }
+}
