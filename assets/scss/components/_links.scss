@@ -27,12 +27,18 @@
   .nav__links:hover {
     color: $limegreen;
   }
+
+  .linksF {
+    font-size: 15px;
+    width: 65px;
+    transition: .3s ease-in-out;
+  }
+
+  .linksF:hover {
+    color: $limegreen;
+  }
+
+  .containerDos__link3 {
+    width: 97px;
+  }
 }
-
-/* --- Media querie desktop
-
-.linksF:hover {
-  color: $grayishblue;
-}
-
-*/
